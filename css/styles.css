@@ -18,16 +18,16 @@ a {
 }
 
 /* -------------header-------------- */
-.header {
-    font-family: 'Roboto' sans-serif;
+/* .header {
+    font-family: 'Roboto',sans-serif;
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.02em;
-}
+} */
 
 .logo {
-    font-family: 'Raleway' sans-serif;
+    font-family: 'Raleway', sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
@@ -86,7 +86,7 @@ a {
 
 /*..........--------hero-------..........*/
 .hero-title {
-    font-family: 'Roboto' sans-serif;
+    font-family: 'Roboto', sans-serif;
     font-weight: 900;
     font-size: 44px;
     line-height: calc(60 / 44);
@@ -116,11 +116,11 @@ a {
 /* -----------about--------------- */
 
 .about {
-    font-family: 'Roboto' sans-serif;
+    /* font-family: 'Roboto' sans-serif;
     font-size: 14px;
     line-height: calc(16 / 14);
     letter-spacing: 0.03em;
-    color: var(--prymary-text-color);
+    color: var(--prymary-text-color); */
 }
 
 .about-subtitle {
@@ -139,14 +139,14 @@ a {
     color: var(--function-text-color);
 }
 /* -------------function-------------- */
-.function {
-    font-family: 'Roboto' sans-serif;
+/* .function {
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
     color: var(--prymary-text-color);
-}
+} */
 
 .visually-hidden {
     position: absolute;
@@ -168,14 +168,14 @@ a {
     color: var(--prymary-text-color);
 }
 /* -------------staff-------------- */
-.staff {
-    font-family: 'Roboto' sans-serif;
+/* .staff {
+    font-family: 'Roboto',sans-serif;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
     letter-spacing: 0.03em;
     color: var(--prymary-text-color);
-}
+} */
 .staff-title {
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -194,17 +194,21 @@ a {
     font-size: 16px;
     line-height: calc(19 / 16);
     letter-spacing: 0.03em;
+    text-align: center;
     color: #757575;
 }
 /* -----------footer------------- */
 .footer {
-    font-family: 'Roboto' sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: calc(24 / 14);
+    background-color: darkgray;
+}
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size: 26px;
+    line-height: calc(31 / 26);
     letter-spacing: 0.03em;
     color: var(--title-text-color);
-    background-color: darkgray;
 }
 .footer-link-address {
     font-size: 14px;
@@ -226,15 +230,6 @@ a {
 }
 
 /* -----------hero2------------ */
-.footer-logo {
-    font-family: 'Raleway', sans-serif;
-    font-weight: bold;
-    font-style: normal;
-    font-size: 26px;
-    line-height: calc(31 / 26);
-    letter-spacing: 0.03em;
-    color: var(--title-text-color);
-}
 .header-link-twostudio {
     font-weight: 500;
     font-size: 14px;
@@ -270,6 +265,7 @@ a {
     letter-spacing: 0.02em;
     color: var(--function-text-color);
 }
+/* -----------btn------------ */
 .hero-btn-all {
     font-weight: 500;
     font-size: 16px;
