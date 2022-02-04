@@ -85,7 +85,7 @@ img {
 }
 
 .header-link {
-    font-style: 400;
+    /* font-style: 400; */
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -99,7 +99,7 @@ img {
 }
 
 .header-link-mail {
-    font-style: 400;
+    /* font-style: 400; */
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -112,7 +112,7 @@ img {
     color: var(--accent-text-color);
 }
 .header-link-tel {
-    font-style: 400;
+    /* font-style: 400; */
     font-weight: 500;
     font-size: 14px;
     line-height: calc(16 / 14);
@@ -217,7 +217,7 @@ img {
 .about-text {
     padding-bottom: 94px;
 
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
@@ -282,7 +282,7 @@ img {
 }
 
 .staff-text {
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 16px;
     line-height: calc(19 / 16);
     text-align: center;
@@ -315,7 +315,7 @@ img {
 
     font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: 400;
+    /* font-weight: 400; */
     font-size: 14px;
     line-height: calc(24 / 14);
     letter-spacing: 0.03em;
